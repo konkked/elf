@@ -1,0 +1,12 @@
+[package]
+name = "seed"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4"           # For UTC timestamp handling
+sha2 = "0.10"            # For SHA-256 hashing
+serde = { version = "1.0", features = ["derive"] }  # For serialization/deserialization
+serde_json = "1.0"       # For JSON manipulation
+dirs = "5.0.1"             # For platform-specific directory paths
+sys-info = "0.9"         # For system information (optional)
